@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Messages Auto</string>
+
+    <string name="bottom_home">Accueil</string>
+    <string name="bottom_add_alert">Ajouter</string>
+    <string name="bottom_help">Aide</string>
+
+    <!-- La page d'accuiel -->
+
+    <string name="home_page_title"> Accueil </string>
+    <string name="home_page_alerts"> Mes alertes </string>
+
+    <!-- infos des alertes -->
+    <string name="item_alert_name"> Nom de l\'alerte</string>
+    <string name="item_alert_description"> Description de l\'alerte</string>
+
+
+    <!-- Page d'Ajout d'Alertes -->
+    <string name="add_alert_page_title"> Creer une alerte </string>
+    <string name="add_alert_page_key_input"> Clef </string>
+    <string name="add_alert_page_message_input"> Contenu du message</string>
+    <string name="add_alert_page_description_input">Description de l\'alerte</string>
+    <string name="add_alert_page_confirm_button"> Confirmer</string>
+
+
+
+</resources>

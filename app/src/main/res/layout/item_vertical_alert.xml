@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <View
+        android:id="@+id/view_separation"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <TextView
+        android:id="@+id/name_item"
+        style="@style/TitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_alert_name"
+        app:layout_constraintBottom_toTopOf="@+id/view_separation"
+        app:layout_constraintStart_toStartOf="@+id/view_separation" />
+
+    <TextView
+        android:id="@+id/description_item"
+        style="@style/SubtitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_alert_description"
+        app:layout_constraintStart_toStartOf="@+id/view_separation"
+        app:layout_constraintTop_toBottomOf="@+id/view_separation" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/view_separation"
+        app:layout_constraintEnd_toEndOf="@+id/view_separation" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
